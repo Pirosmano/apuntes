@@ -8,8 +8,8 @@ apt-get install sudo
 sudo adduser nombre_usuario sudo
 '''
 ###desinstalar programas y limpiar registros
-apt-get purge nombre_del_programa
-apt-get autoremove
+sudo apt-get purge nombre_del_programa
+sudo apt-get autoremove
 
 ###actualizar debian:
 
@@ -26,3 +26,4 @@ sudo apt-get install gdebi
 '''sh
 sudo apt-get install htop
 sudo apt-get install libreoffice
+sudo apt-get install transmission-gtk
