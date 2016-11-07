@@ -2,11 +2,11 @@
 
 ### activar sudo:
 
-'''sh
+´´´sh
 su
 apt-get install sudo
 sudo adduser nombre_usuario sudo
-'''
+´´´
 ###desinstalar programas y limpiar registros
 sudo apt-get purge nombre_del_programa
 sudo apt-get autoremove
@@ -18,17 +18,17 @@ sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo
 
 ### instalar instalador grafico de paquetes debian
 
-'''sh
+´´´sh
 sudo apt-get install gdebi
-'''
+´´´
 
 ### instalar mis aplicaciones favoritas
-'''sh
+´´´sh
 sudo apt-get install htop
 sudo apt-get install libreoffice
 sudo apt-get install transmission-gtk
-
+´´´
 ### ejecutar scripts
-'''sh
+´´´sh
 bash nombre_script.sh
-'''
+´´´
