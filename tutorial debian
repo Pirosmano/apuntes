@@ -12,3 +12,15 @@ sudo adduser nombre_usuario sudo
 ###actualizar debian:
 
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove
+
+
+### instalar instalador grafico de paquetes debian
+
+'''sh
+sudo apt-get install gdebi
+'''
+
+### instalar mis aplicaciones favoritas
+'''sh
+sudo apt-get install htop
+sudo apt-get install libreoffice
