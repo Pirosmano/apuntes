@@ -1,6 +1,6 @@
 ## tutorial debian
 
-activar sudo:
+### activar sudo:
 
 '''sh
 su
@@ -9,6 +9,6 @@ sudo adduser nombre_usuario sudo
 '''
 
 
-actualizar debian:
+###actualizar debian:
 
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get autoremove
