@@ -7,7 +7,9 @@ su
 apt-get install sudo
 sudo adduser nombre_usuario sudo
 '''
-
+###desinstalar programas y limpiar registros
+apt-get purge nombre_del_programa
+apt-get autoremove
 
 ###actualizar debian:
 
