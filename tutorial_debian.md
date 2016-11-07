@@ -27,3 +27,8 @@ sudo apt-get install gdebi
 sudo apt-get install htop
 sudo apt-get install libreoffice
 sudo apt-get install transmission-gtk
+
+### ejecutar scripts
+'''sh
+bash nombre_script.sh
+'''
